@@ -37,9 +37,15 @@ function App() {
         <div className="cart-container">
           <h3>This is cart</h3>
           <div className="cart-title">
-            <h5>Name :</h5>
-            <h5>Price :</h5>
+            <h5>Name </h5>
+            <h5>Price </h5>
           </div>
+          {cart.map((item) => (
+            <div className="cart-info">
+              <h5>Name :{item.title.slice(0, 10)}</h5>
+              <h5>Price : {item.price}</h5>
+            </div>
+          ))}
         </div>
       </div>
     </>
