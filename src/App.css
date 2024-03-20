@@ -1,0 +1,31 @@
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cart-container {
+  width: 350px;
+  box-shadow: 4px 4px 4px gray;
+}
+
+.card {
+  width: 300px;
+  text-align: center;
+  border: 2px solid gray;
+}
+.card-img {
+  width: 100px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-title {
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-btn {
+  border: 2px solid gray;
+}
